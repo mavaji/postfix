@@ -183,7 +183,7 @@ void PostfixString::calculatePostfix() {
         }
     }
 
-    std::cout << "Calculated Result is: " << stack.pop();
+    std::cout << "Calculated Result is: " << stack.pop() << "\n";
 }
 
 int PostfixString::pre(char x) {
